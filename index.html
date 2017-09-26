@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+</head>
+<body>
+<div class="box">
+    <div class="header"><span>假日旅行</span></div>
+   <div class="section">
+       <div class="scroller">
+           <div class="swiper-container con">
+               <div class="swiper-wrapper">
+                   <div class="swiper-slide slide"><img src="img/1.png" alt=""></div>
+                   <div class="swiper-slide slide"><img src="img/1.png" alt=""></div>
+                   <div class="swiper-slide slide"><img src="img/1.png" alt=""></div>
+                   <div class="swiper-slide slide"><img src="img/1.png" alt=""></div>
+               </div>
+               <div class="swiper-pagination pag"></div>
+           </div>
+           <div class="nav">
+
+               <p>
+                   <span style="background: #46D265"><i class="iconfont icon-twitter"></i></span><b>热门景点</b>
+               </p>
+               <p>
+                   <span style="background: #FF7900"><i class="iconfont icon-twitter"></i></span><b>记账簿</b>
+               </p>
+               <p>
+                   <span style="background: #5AAAFF"><i class="iconfont icon-twitter"></i></span><b>境内/境外</b>
+               </p>
+               <p>
+                   <span style="background: #FEB546"><i class="iconfont icon-twitter"></i></span><b>轮船票</b>
+               </p>
+               <p>
+                   <span style="background: #FE645A"><i class="iconfont icon-twitter"></i></span><b>酒店</b>
+               </p>
+               <p>
+                   <span style="background: #66CBFF"><i class="iconfont icon-twitter"></i></span><b>飞机票</b>
+               </p>
+               <p>
+                   <span style="background: #FFD33C"><i class="iconfont icon-twitter"></i></span><b>火车票</b>
+               </p>
+               <p>
+                   <span style="background: #5BDCC8"><i class="iconfont icon-twitter"></i></span><b>行程记录</b>
+               </p>
+
+           </div>
+           <div class="main">
+               <div>
+                   <p><span>热销榜</span><span>大家都爱玩</span></p>
+                   <p><img src="images/1_03.png" alt=""></p>
+               </div>
+               <div>
+                   <p><span>我身边</span><span>附近有什么</span></p>
+                   <p><img src="images/1_05.png" alt=""></p>
+               </div>
+               <div>
+                   <p><span>千元出国</span><span>周二、五开枪</span></p>
+                   <p><img src="images/1_03.png" alt=""></p>
+               </div>
+               <div>
+                   <p><span>旅游日历</span><span>1元门票早知道</span></p>
+                   <p><img src="images/1_05.png" alt=""></p>
+               </div>
+
+           </div>
+       </div>
+   </div>
+    <div class="footer">
+        <span><i class="iconfont icon-shouye on"></i><b>首页</b></span>
+        <span><i class="iconfont icon-quanbudingdan-01"></i><b>首页</b></span>
+        <span><i class="iconfont icon-wode"></i><b>首页</b></span>
+        <span><i class="iconfont icon-gengduo"></i><b>首页</b></span>
+    </div>
+</div>
+<script src="swiper/swiper-3.3.1.min.js"></script>
+<script src="isroll/iscroll-probe.js"></script>
+<script>
+    var swiper=new Swiper(".con",{
+        autoplay:2000,
+        loop:true,
+        pagination:".swiper-pagination",
+        paginationType:"progress"
+    });
+    var isroll = new IScroll(".section")
+</script>
+</body>
+</html>

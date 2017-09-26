@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <span><</span><span>选择城市</span>
+    </div>
+   <div class="section">
+       <div class="scoller">
+           <div class="nav">
+               <input type="text" placeholder="输入城市名（如北京、bj、beijing）">
+               <i class="iconfont icon-fangdajing icon"></i>
+           </div>
+           <div class="nav1">当前城市</div>
+           <div class="located">正在定位中...</div>
+           <div class="nav1">热门</div>
+           <div class="main">
+               <p><span>北京</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>苏州</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>苏州</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>上海</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>无锡</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>广州</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>常州</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>青岛</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>北京</span><span><i class="iconfont icon-dui"></i></span></p>
+               <p><span>苏州</span><span><i class="iconfont icon-dui"></i></span></p>
+           </div>
+           <div class="pos">
+               <span>热门</span>
+               <span>A</span>
+               <span>B</span>
+               <span>C</span>
+               <span>D</span>
+               <span>E</span>
+               <span>F</span>
+               <span>G</span>
+               <span>H</span>
+               <span>J</span>
+               <span>K</span>
+               <span>L</span>
+               <span>L</span>
+               <span>M</span>
+               <span>N</span>
+               <span>P</span>
+               <span>Q</span>
+               <span>R</span>
+               <span>S</span>
+               <span>T</span>
+               <span>W</span>
+               <span>X</span>
+               <span>Y</span>
+               <span>Z</span>
+
+           </div>
+       </div>
+   </div>
+    <div class="footer"></div>
+</div>
+<script src="js/data.js"></script>
+<script src="isroll/iscroll-probe.js"></script>
+<script>
+    (function(doc,win){
+        doc.documentElement.style.fontSize=doc.documentElement.clientWidth/375*50+"px"
+    })(document,window)
+    var isroll = new IScroll(".section")
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body,.box{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: .32rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.header,.footer{
+    width: 100%;
+    height: .8rem;
+    background: #46D265;
+}
+.header{
+    width: 100%;
+    display: flex;
+}
+.header span{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: .4rem;
+}
+.header span:nth-child(2){
+    flex: 10;
+}
+.section{
+    flex: 1;
+    overflow: hidden;
+    background: #eee;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 1rem;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.nav input{
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    text-indent: .5rem;
+}
+.nav .icon{
+    position: absolute;
+    left:.5rem;
+}
+.nav1{
+    width: 100%;
+    height: .5rem;
+    background: #CECECE;
+    tab-index: 10px;
+}
+.located{
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
+}
+.main{
+    width: 100%;
+    background: #fff;
+}
+.main p{
+  display: flex;
+    width: 100%;
+    height: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.main p:first-child{
+    color: green;
+
+}
+.main p span{
+     flex: 1;
+ }
+.main p span:first-child{
+    flex: 3;
+    text-indent: 10px;
+}
+.pos{
+    width: .8rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    background: #eee;
+    top:1.5rem;
+}
+.pos span{
+    color: green;
+    width: 100%;
+    text-align: center;
+}
